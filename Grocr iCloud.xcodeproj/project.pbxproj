@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596B061E1F1FFB1600E6ECEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B061D1F1FFB1600E6ECEC /* AppDelegate.swift */; };
+		596B06201F1FFB1600E6ECEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B061F1F1FFB1600E6ECEC /* ViewController.swift */; };
+		596B06251F1FFB1600E6ECEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596B06241F1FFB1600E6ECEC /* Assets.xcassets */; };
+		596B06281F1FFB1600E6ECEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B06261F1FFB1600E6ECEC /* LaunchScreen.storyboard */; };
+		596B06301F1FFB7B00E6ECEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B062F1F1FFB7B00E6ECEC /* Main.storyboard */; };
+		596B065A1F1FFB9C00E6ECEC /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B063E1F1FFB9C00E6ECEC /* GroceryItem.swift */; };
+		596B065B1F1FFB9C00E6ECEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B063F1F1FFB9C00E6ECEC /* User.swift */; };
+		596B06661F1FFB9C00E6ECEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B064D1F1FFB9C00E6ECEC /* LoginViewController.swift */; };
+		596B06671F1FFB9C00E6ECEC /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B064E1F1FFB9C00E6ECEC /* GroceryListTableViewController.swift */; };
+		596B06681F1FFB9C00E6ECEC /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B064F1F1FFB9C00E6ECEC /* OnlineUsersTableViewController.swift */; };
+		5993F6FC1F262E6B0028773E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993F6FB1F262E6B0028773E /* CloudKit.framework */; };
+		59CA48CD1F2637DD00BA6E50 /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CA48CC1F2637DD00BA6E50 /* iCloud.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		596B061A1F1FFB1600E6ECEC /* Grocr iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocr iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		596B061D1F1FFB1600E6ECEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		596B061F1F1FFB1600E6ECEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		596B06241F1FFB1600E6ECEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		596B06271F1FFB1600E6ECEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		596B06291F1FFB1600E6ECEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596B062F1F1FFB7B00E6ECEC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		596B063E1F1FFB9C00E6ECEC /* GroceryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		596B063F1F1FFB9C00E6ECEC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		596B064D1F1FFB9C00E6ECEC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		596B064E1F1FFB9C00E6ECEC /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		596B064F1F1FFB9C00E6ECEC /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
+		5993F6F91F262E680028773E /* Gocr iCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gocr iCloud.entitlements"; sourceTree = "<group>"; };
+		5993F6FB1F262E6B0028773E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		59CA48CC1F2637DD00BA6E50 /* iCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596B06171F1FFB1600E6ECEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993F6FC1F262E6B0028773E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596B06111F1FFB1600E6ECEC = {
+			isa = PBXGroup;
+			children = (
+				596B061C1F1FFB1600E6ECEC /* Gocr iCloud */,
+				596B061B1F1FFB1600E6ECEC /* Products */,
+				5993F6FA1F262E6B0028773E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		596B061B1F1FFB1600E6ECEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				596B061A1F1FFB1600E6ECEC /* Grocr iCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		596B061C1F1FFB1600E6ECEC /* Gocr iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				5993F6F91F262E680028773E /* Gocr iCloud.entitlements */,
+				596B063E1F1FFB9C00E6ECEC /* GroceryItem.swift */,
+				596B063F1F1FFB9C00E6ECEC /* User.swift */,
+				596B064D1F1FFB9C00E6ECEC /* LoginViewController.swift */,
+				596B064E1F1FFB9C00E6ECEC /* GroceryListTableViewController.swift */,
+				59CA48CC1F2637DD00BA6E50 /* iCloud.swift */,
+				596B064F1F1FFB9C00E6ECEC /* OnlineUsersTableViewController.swift */,
+				596B062F1F1FFB7B00E6ECEC /* Main.storyboard */,
+				596B061D1F1FFB1600E6ECEC /* AppDelegate.swift */,
+				596B061F1F1FFB1600E6ECEC /* ViewController.swift */,
+				596B06241F1FFB1600E6ECEC /* Assets.xcassets */,
+				596B06261F1FFB1600E6ECEC /* LaunchScreen.storyboard */,
+				596B06291F1FFB1600E6ECEC /* Info.plist */,
+			);
+			path = "Gocr iCloud";
+			sourceTree = "<group>";
+		};
+		5993F6FA1F262E6B0028773E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5993F6FB1F262E6B0028773E /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		596B06191F1FFB1600E6ECEC /* Grocr iCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596B062C1F1FFB1600E6ECEC /* Build configuration list for PBXNativeTarget "Grocr iCloud" */;
+			buildPhases = (
+				596B06161F1FFB1600E6ECEC /* Sources */,
+				596B06171F1FFB1600E6ECEC /* Frameworks */,
+				596B06181F1FFB1600E6ECEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocr iCloud";
+			productName = "Gocr iCloud";
+			productReference = 596B061A1F1FFB1600E6ECEC /* Grocr iCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		596B06121F1FFB1600E6ECEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Julio Brazil LTDA";
+				TargetAttributes = {
+					596B06191F1FFB1600E6ECEC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 524D3B9S8F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 596B06151F1FFB1600E6ECEC /* Build configuration list for PBXProject "Grocr iCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 596B06111F1FFB1600E6ECEC;
+			productRefGroup = 596B061B1F1FFB1600E6ECEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				596B06191F1FFB1600E6ECEC /* Grocr iCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		596B06181F1FFB1600E6ECEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B06281F1FFB1600E6ECEC /* LaunchScreen.storyboard in Resources */,
+				596B06251F1FFB1600E6ECEC /* Assets.xcassets in Resources */,
+				596B06301F1FFB7B00E6ECEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		596B06161F1FFB1600E6ECEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596B065A1F1FFB9C00E6ECEC /* GroceryItem.swift in Sources */,
+				596B06681F1FFB9C00E6ECEC /* OnlineUsersTableViewController.swift in Sources */,
+				596B06671F1FFB9C00E6ECEC /* GroceryListTableViewController.swift in Sources */,
+				596B06201F1FFB1600E6ECEC /* ViewController.swift in Sources */,
+				596B06661F1FFB9C00E6ECEC /* LoginViewController.swift in Sources */,
+				596B065B1F1FFB9C00E6ECEC /* User.swift in Sources */,
+				596B061E1F1FFB1600E6ECEC /* AppDelegate.swift in Sources */,
+				59CA48CD1F2637DD00BA6E50 /* iCloud.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		596B06261F1FFB1600E6ECEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				596B06271F1FFB1600E6ECEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		596B062A1F1FFB1600E6ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		596B062B1F1FFB1600E6ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		596B062D1F1FFB1600E6ECEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Gocr iCloud/Gocr iCloud.entitlements";
+				DEVELOPMENT_TEAM = 524D3B9S8F;
+				INFOPLIST_FILE = "Gocr iCloud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mackmobile.brazil.julio.Gocr-iCloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		596B062E1F1FFB1600E6ECEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Gocr iCloud/Gocr iCloud.entitlements";
+				DEVELOPMENT_TEAM = 524D3B9S8F;
+				INFOPLIST_FILE = "Gocr iCloud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.br.mackmobile.brazil.julio.Gocr-iCloud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		596B06151F1FFB1600E6ECEC /* Build configuration list for PBXProject "Grocr iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B062A1F1FFB1600E6ECEC /* Debug */,
+				596B062B1F1FFB1600E6ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596B062C1F1FFB1600E6ECEC /* Build configuration list for PBXNativeTarget "Grocr iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596B062D1F1FFB1600E6ECEC /* Debug */,
+				596B062E1F1FFB1600E6ECEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 596B06121F1FFB1600E6ECEC /* Project object */;
+}
